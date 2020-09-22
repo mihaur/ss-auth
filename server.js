@@ -1,5 +1,5 @@
 const path = require("path");
-
+require('dotenv').config()
 const bcrypt = require("bcryptjs");
 const bodyParser = require("body-parser");
 const csurf = require("csurf");
